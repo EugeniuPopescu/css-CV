@@ -1,0 +1,33 @@
+body {
+    width: 70%; /* rispetto al contenitore */
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    border-bottom: solid 2px orange;
+    background-color: #EEEEEE;
+}
+
+header h1 { /* nell header prendiamo tutti gli h1 */
+    font-weight: 300; /* lo spessore del testo */
+}
+
+img {
+    width: 20%; /* rispetto al contenitore */
+}
+
+main {
+    border-bottom: solid 2px orange;
+    padding-left: 2em; /* em rispetto al padre */
+    padding-right: 2em;
+}
+
+main section h2 {
+    color: orange;
+}
+
+.item h3 {
+    font-style: italic; /* e lo stile grassetto */
+}
